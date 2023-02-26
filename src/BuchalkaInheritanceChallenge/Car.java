@@ -11,6 +11,12 @@ public class Car extends Vehicle{
         this.seats = seats;
     }
 
+    public Car(String brand, String engine, String fuel, int gear, int doors, String model, int seats) {
+        super(brand, engine, fuel, gear, doors);
+        this.model = model;
+        this.seats=seats;
+    }
+
     @Override
     public void start() {
         super.start();
@@ -49,7 +55,6 @@ public class Car extends Vehicle{
 
     @Override
     public String toString() {
-        super.toString();
         return "Car{" +
                 "model='" + model + '\'' +
                 ", seats=" + seats +

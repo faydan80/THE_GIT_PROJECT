@@ -4,8 +4,20 @@ public class Cabriolet extends Car {
     private String driverName;
     private String passengerName;
 
-    public Cabriolet(String driverName, String passengerName) {
+    public Cabriolet(String driverName, String passengerName, Car newCar, Vehicle newVehicle) {
         super("AMG 500", 2);
+        this.driverName = driverName;
+        this.passengerName = passengerName;
+    }
+
+    public Cabriolet(String model, int seats, String driverName, String passengerName) {
+        super(model, seats);
+        this.driverName = driverName;
+        this.passengerName = passengerName;
+    }
+
+    public Cabriolet(String brand, String engine, String fuel, int gear, int doors, String model, int seats, String driverName, String passengerName) {
+        super(brand, engine, fuel, gear, doors, model, seats);
         this.driverName = driverName;
         this.passengerName = passengerName;
     }
@@ -48,7 +60,6 @@ public class Cabriolet extends Car {
 
     @Override
     public String toString() {
-        super.toString();
         return "Cabriolet{" +
                 "driverName='" + driverName + '\'' +
                 ", passengerName='" + passengerName + '\'' +
