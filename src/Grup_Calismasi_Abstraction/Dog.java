@@ -80,4 +80,16 @@ public class Dog extends DomesticAnimals implements LivesOutdoors{
         }
 
     }
+
+    @Override
+    public String toString() {
+        super.toString();
+        return "Dog{" +
+                "kind='" + kind + '\'' +
+                ", name='" + name + '\'' +
+                ", legs=" + legs +
+                ", weight=" + weight +
+                ", heigth=" + heigth +
+                '}';
+    }
 }

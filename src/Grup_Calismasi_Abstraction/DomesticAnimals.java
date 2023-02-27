@@ -11,4 +11,12 @@ public abstract class DomesticAnimals extends Animal {
     }
 
     public abstract void lives();
+
+    @Override
+    public String toString() {
+        return "DomesticAnimals{" +
+                "weight=" + weight +
+                ", heigth=" + heigth +
+                '}';
+    }
 }

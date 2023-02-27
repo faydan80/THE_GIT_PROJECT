@@ -6,8 +6,21 @@ public class AnimalTest {
         myDog.setKind("Terrier");
         Dog herDog=new Dog(2,16,"Karabas",4);
         herDog.setKind("Kangal");
+        System.out.println("myDog = " + myDog);
+        System.out.println(herDog);
 
+        Wolves greyWolf=new Wolves(1,16,"Grey Wolf");
+        System.out.println(greyWolf);
 
+        greyWolf.eatsMeat();
+        greyWolf.eat();
+        greyWolf.drink();
+        greyWolf.lives();
+        greyWolf.livesOutdoor();
+        greyWolf.move();
+        greyWolf.task();
+        greyWolf.sleep();
+        System.out.println("greyWolf.toString() = " + greyWolf.toString());
 
 
     }

@@ -7,5 +7,8 @@ public abstract class Animal {
     public abstract void move();
     public abstract void sleep();
 
-
+    @Override
+    public String toString() {
+        return "Animal{}";
+    }
 }
