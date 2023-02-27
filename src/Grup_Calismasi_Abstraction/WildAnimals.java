@@ -11,12 +11,12 @@ public abstract class WildAnimals extends Animal{
     public abstract void lives();
 
     @Override
-    public void eat() {
+    public void eat(String eatsWhat) {
 
     }
 
     @Override
-    public void drink() {
+    public void drink(String drinksWhat) {
 
     }
 

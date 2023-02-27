@@ -13,12 +13,13 @@ public class Dog extends DomesticAnimals implements LivesOutdoors{
     }
 
     @Override
-    public void eat() {
-        System.out.println("It eats chicken bones and dog food ");
+    public void eat(String eatsWhat) {
+        System.out.println("It eats "+ eatsWhat);
     }
 
+
     @Override
-    public void drink() {
+    public void drink(String drinksWhat) {
         System.out.println("It drinks water.");
 
     }
@@ -65,8 +66,8 @@ public class Dog extends DomesticAnimals implements LivesOutdoors{
         if (kind.equals("Labrador")||kind.equals("Golden")||kind.equals("Terrier")) {
             this.kind=kind;
             System.out.println("My dog is a "+ kind + " and its name is"+this.name);
-            eat();
-            drink();
+            eat("Dog Food");
+            drink("Water");
             move();
             sleep();
             lives();

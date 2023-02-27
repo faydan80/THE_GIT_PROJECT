@@ -13,8 +13,8 @@ public class AnimalTest {
         System.out.println(greyWolf);
 
         greyWolf.eatsMeat();
-        greyWolf.eat();
-        greyWolf.drink();
+        greyWolf.eat("Meat");
+        greyWolf.drink("Water");
         greyWolf.lives();
         greyWolf.livesOutdoor();
         greyWolf.move();

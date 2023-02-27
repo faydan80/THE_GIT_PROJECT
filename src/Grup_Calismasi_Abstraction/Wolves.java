@@ -44,13 +44,13 @@ public class Wolves extends WildAnimals implements LivesOutdoors {
 
 
     @Override
-    public void eat() {
+    public void eat(String eatsWhat) {
         eatsMeat();
     }
 
     @Override
-    public void drink() {
-        super.drink();
+    public void drink(String drinksWhat) {
+        super.drink("Water");
     }
 
     @Override
