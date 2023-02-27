@@ -1,0 +1,13 @@
+deals with basic or a main structure of an object.(bir objenin yapisi ve temelleri ile ilgilidir, isleyis concrete subClass larda ele alinir)
+Anayasa gibi, uygulanabilmesi icin uyum yasalari ve onlarinda Yönetmelik, Genelge,Yönergelerinin olmasi gibi
+Syntax of the Class : ___ public abstract class Main{}_____
+Syntax of the abstract methods public abstract void abstractlastiramadiklarimiz();
+methodlarin bdoy'leri yoktur, ancak parametreleri olabilir.
+subclass'lar ile baglanti *extends* keyword'u ile saglanir.
+AbstractClass'ta bir objenin olusturulmasi icin gerekli olan instance MEthodlar/field olabilir,Comstructor da olusturulabilir ancak obje olusturulamaz
+Abstract class larda mutlaka bir default constructor vardir
+Abstract Classlarda abstract metodlarin yanisiria default/final/private/protected methods
+
+abstract olmayan bir Class'ta abstract method olusturulabilir mi?  
+
+
